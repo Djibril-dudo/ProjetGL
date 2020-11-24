@@ -35,5 +35,48 @@ public class AppTest
 
     }
 
+    @Test
+    public void dividetest(){
+        Calculator calculator = new Calculator();
+        calculator.divide(1,2);
+        System.out.println( calculator.divide(6,2));
 
-}
+    }
+
+    @Test
+    public void mintest()
+    {
+        Calculator calculator = new Calculator();
+        calculator.min(1,2);
+        System.out.println( calculator.min(6,2));
+
+    }
+
+
+    @Test
+
+    public void maxtest(){
+        Calculator calculator = new Calculator();
+        calculator.max(1,2);
+        System.out.println( calculator.max(6,2));
+
+    }
+
+    public void minElement(){
+        Calculator calculator = new Calculator();
+        calculator.minElement(1,2);
+        System.out.println( calculator.minElement(6,2));
+
+    }
+
+
+
+
+
+
+    }
+
+
+
+
+
