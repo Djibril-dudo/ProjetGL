@@ -35,16 +35,16 @@ public class CalculatorTest {
  }
  @Test
  public void testdivide(){
-  int   result=calculator.divide(6,2);
-  if(result !=3){
-   Assert.fail();
+  int   result=calculator.divide(8,2);
+  if(result !=4){
+   Assert.fail(); //cela nous montre que 8 div 2 =4
   }
  }
 
  @Test
  public void min() {
-  int min=calculator.min(15,25);
-  if (min !=15) Assert.fail();
+  int min=calculator.min(8,25);
+  if (min !=8) Assert.fail();
  }
 
  @Test
