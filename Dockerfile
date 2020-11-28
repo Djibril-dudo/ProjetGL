@@ -1,7 +1,7 @@
 
 FROM openjdk:8-jdk-alpine
 
-ARG JAR_FILE=target/ProjetgenieL.jar
+ARG JAR_FILE=target/ProjetgenieL-1.0-SNAPSHOT.jar
 ARG JAR_LIB_FILE=target/lib/
 
 # cd /usr/local/runme
