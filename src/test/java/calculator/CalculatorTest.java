@@ -15,13 +15,13 @@ public class CalculatorTest {
  }
 
  @Test
- public void sub() {
+ public void sum() {
 
-  int resultat=calculator.sub(2,2);
+  int resultat=calculator.sum(2,2);
   Assert.assertEquals(4,resultat);
 
 
- }
+ }  //la correction du terme Sum qui était sub
 
  @Test
  public void minus() {

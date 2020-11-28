@@ -2,11 +2,11 @@ package calculator;
 
 public class Calculator {
 
+    //Le code à tester
 
-
-    public static int sub(int a, int b){
+    public static int sum(int a, int b){
         return a + b ;
-    }
+    }    //la correction du terme Sum qui était sub
     public static int minus(int a, int b){
         return a - b ;
     }
